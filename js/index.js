@@ -190,7 +190,6 @@ Tags:
         portfolioGalleryWrap.imagesLoaded(function() {
             var $grid = $('.portfolio-demo').isotope({
                 itemSelector: '.portfolio-item',
-                filter:'.wordpress_p',
                 percentPosition: true,
             });
             portfolioFilterBtn.on("click", function() {

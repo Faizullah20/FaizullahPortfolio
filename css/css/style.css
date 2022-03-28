@@ -1,0 +1,194 @@
+section#resume {
+  padding: 0px;
+}
+
+.demo {
+  background: #081726;
+}
+.testimonial .pic {
+  width: 22%;
+  padding: 20px 0;
+  margin: 0 6% 0 2%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.testimonial .pic:before,
+.testimonial .pic:after {
+  content: "";
+  width: 130px;
+  height: 150px;
+  background: #e1c37d;
+  position: absolute;
+  z-index: -1;
+}
+.testimonial .pic:before {
+  top: 0;
+  right: -20px;
+}
+.testimonial .pic:after {
+  bottom: 0;
+  left: -20px;
+}
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #e1c37d;
+}
+
+.testimonial {
+  width: 100%;
+  float: left;
+}
+
+.testimonial .testimonial-content {
+  width: 100%;
+  float: right;
+}
+.testimonial .title {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fc274d;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+
+.testimonial .cmptitle {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fc274d;
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 0px;
+  padding-left: 15px;
+  line-height: 1.8;
+}
+.post > a {
+  color: #6ec1e4;
+  text-transform: none;
+}
+
+.testimonial .post {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.testimonial .description {
+  font-size: 18px;
+
+  padding: 0 15px;
+  margin: 0;
+  position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 17px;
+  color: #fc274d;
+  position: relative;
+}
+.testimonial .description:before {
+  content: "\201C";
+  margin-right: 5px;
+  top: 18px;
+  left: 0;
+  font-size: 67px;
+  line-height: 20px;
+}
+.testimonial .description:after {
+  content: "\201D";
+  margin-left: 5px;
+  position: relative;
+  bottom: -25px;
+  right: 0;
+  font-size: 67px;
+  line-height: 0px;
+}
+.owl-theme .owl-controls {
+  width: 78%;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  background: transparent;
+  border-radius: 0;
+  opacity: 1;
+  position: relative;
+  float: left;
+}
+.owl-prev:before,
+.owl-next:before {
+  content: "\2190";
+  font-family: "fontawesome";
+  font-size: 45px;
+  font-weight: 900;
+  color: #fc274d;
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.owl-next:before {
+  content: "\2192";
+}
+.owl-next:after {
+  content: " / ";
+  font-size: 40px;
+  color: #fc274d;
+  position: absolute;
+  top: 0;
+  left: -17px;
+}
+@media only screen and (max-width: 990px) {
+  .testimonial {
+    text-align: center;
+  }
+  .testimonial .pic {
+    width: 200px;
+    margin: 0 auto;
+    float: none;
+  }
+  .testimonial .pic:before,
+  .testimonial .pic:after {
+    width: 80px;
+    height: 100px;
+  }
+  .testimonial .testimonial-content {
+    width: 100%;
+    float: none;
+  }
+  .testimonial .title {
+    padding: 15px 0 0 0;
+  }
+  .testimonial .post {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .owl-theme .owl-controls {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+  .owl-theme .owl-controls .owl-buttons div {
+    height: 50px;
+    line-height: 50px;
+  }
+}
